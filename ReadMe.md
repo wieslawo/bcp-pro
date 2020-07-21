@@ -7,6 +7,8 @@ First problem is when you try to import csv file with data in daouble quotation 
 
 Second problem is when you export to csv file, when you have in some column data with comma, also problem. You can use different separator but when other system required only comma there is problem.
 
+Third problem with bcp is that it's not exporting column names from table, I'm planning to add this too.
+
 I needed command line tool for export and import csv file from MS SQL so I decided to write such tool in .NET Core.
 
 At this momoent works only import, it's not fully tested but temporary it works for me, maybe I will work on this more in future.
