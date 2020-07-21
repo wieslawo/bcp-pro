@@ -9,7 +9,7 @@ Second problem is when you export to csv file, when you have in some column data
 
 I needed command line tool for export and import csv file from MS SQL so I decided to write such tool in .NET Core.
 
-It's not fully tested but temporary it works for me, maybe I will work on this more in future.
+At this momoent works only import, it's not fully tested but temporary it works for me, maybe I will work on this more in future.
 
 ## You can use this in similar like original bcp, for example:
 
