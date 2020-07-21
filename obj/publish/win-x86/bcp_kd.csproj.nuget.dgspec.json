@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\KD\\DataWarehouseSvc\\Katon.Services.DataWarehouseSvc\\bcp_kd\\bcp_kd.csproj": {}
+  },
+  "projects": {
+    "D:\\KD\\DataWarehouseSvc\\Katon.Services.DataWarehouseSvc\\bcp_kd\\bcp_kd.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\KD\\DataWarehouseSvc\\Katon.Services.DataWarehouseSvc\\bcp_kd\\bcp_kd.csproj",
+        "projectName": "bcp_kd",
+        "projectPath": "D:\\KD\\DataWarehouseSvc\\Katon.Services.DataWarehouseSvc\\bcp_kd\\bcp_kd.csproj",
+        "packagesPath": "C:\\Users\\wiesl_000\\.nuget\\packages\\",
+        "outputPath": "D:\\KD\\DataWarehouseSvc\\Katon.Services.DataWarehouseSvc\\bcp_kd\\obj\\publish\\win-x86\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wiesl_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.openposition.io/nuget/Katon": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Mono.Options": {
+              "target": "Package",
+              "version": "[6.6.0.161, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[3.1.3, 3.1.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[3.1.3, 3.1.3]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[3.1.3, 3.1.3]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

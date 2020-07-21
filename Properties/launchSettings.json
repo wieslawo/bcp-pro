@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "bcp_pro": {
+      "commandName": "Project",
+      "commandLineArgs": "dbo.schedule -i D:\\temp\\MongoExport\\EmailSchedulerSvc.ScheduleModel.csv -S . -D Test -T"
+    }
+  }
+}
