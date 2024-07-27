@@ -3,7 +3,7 @@ Improved bcp command line tool
 
 Microsoft bcp tool for import/export data from MS SQL has few constraints.
 
-First problem is when you try to import csv file with data in daouble quotation marks. bcp doesn't allow such file, when you have such file from other system for example from mongoexport tool you have problem.
+First problem is when you try to import csv file with data in double quotation marks. bcp doesn't allow such file, when you have such file from other system for example from mongoexport tool you have problem.
 
 Second problem is when you export to csv file, when you have in some column data with comma, also problem. You can use different separator but when other system required only comma there is problem.
 
