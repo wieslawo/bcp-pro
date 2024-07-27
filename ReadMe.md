@@ -1,4 +1,4 @@
-﻿# bcp_pro
+﻿# bcp-pro
 Improved bcp command line tool
 
 Microsoft bcp tool for import/export data from MS SQL has few constraints.
